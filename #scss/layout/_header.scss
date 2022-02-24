@@ -1,0 +1,122 @@
+.header {
+	position: absolute;
+	top: rem(55px);
+	left: 0;
+	right: 0;
+	z-index: 10;
+
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	align-items: center;
+	justify-items: center;
+
+	color: $white;
+
+	@media #{$screen-mobile} { 
+		top: rem(20px);
+	}
+
+	&__burger {
+		display: none;
+		background-color: transparent;
+		border: none;
+		outline: none;
+		color: $white;
+		cursor: pointer;
+
+		@media #{$screen-tablet} { 
+			display: block;
+		} 
+	}
+
+	&__logo {
+
+		@media #{$screen-mobile} { 
+			max-width: rem(150px);
+		}
+
+		& img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: rem(450px);
+		width: 100%;
+		
+		@media #{$screen-tablet} { 
+			position: fixed;
+			top: -100%;
+			left: rem(30px);
+			flex-direction: column;
+			align-items: stretch;
+
+			background-color: $color2;
+			width: auto;
+			padding: rem(30px) rem(30px) rem(30px) rem(30px);	
+			transition: .5s;		
+		}
+
+		&--active {			
+			top: 0;
+			transition: .5s;
+		}		
+
+		&-link {		
+			display: block;
+			color: currentColor;
+
+			&:not(:last-child) {
+				@media #{$screen-tablet} {
+					padding: rem(10px) 0;
+				}
+			}					
+			
+			&:hover {
+				text-decoration: underline;	
+			}
+		}
+
+		&-close {
+			display: none;
+			align-self: flex-start;
+			background-color: transparent;
+			border: none;
+			outline: none;
+			color: $white;
+	
+			@media #{$screen-tablet} {
+				display: block;
+			}				
+		}
+	}
+
+	
+
+	&__phone {
+		display: flex;
+		align-items: center;
+		color: currentColor;
+
+		&:hover {
+			text-decoration: underline;
+		}
+
+		&-icon svg {
+			color: $color3;
+		}
+
+		&-text {
+			margin-left: rem(11px);
+
+			@media #{$screen-mobile} { 
+				display: none;
+			}
+		}
+	}
+
+}

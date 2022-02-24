@@ -1,0 +1,40 @@
+.slider1 {	
+		
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+	width: rem(70px);
+	height: rem(70px);	
+	outline: none;
+
+	@media #{$screen-tablet} { 
+		top: rem(20px);
+	}
+	
+	@media #{$screen-mobile} {
+		width: rem(40px);
+		height: rem(40px);
+	}
+
+	&::after {
+		content: none;
+	}	
+}	
+
+.swiper-button-prev {
+	color: $white;
+
+	&:hover {
+		color: $color3;
+	}
+}
+
+.swiper-button-next {
+	color: $color3;
+
+	&:hover {
+		color: $white;
+	}
+}
+	

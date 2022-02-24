@@ -1,0 +1,134 @@
+$font-size-base: 16px;
+
+// Статичные цвета
+$background: #FFF;
+$black: #000;
+$white: #FFF;
+$color1: #3A4574;
+$color2: #212742;
+$color3: #D3B47F;
+$color4: #E7E7E7;
+$color5: #808080;
+
+
+//Динамические цвета
+$color-text: $black;
+
+$drop-shadow: rem(2px) rem(4px) rem(5px) rgba(0, 0, 0, .5);
+
+
+//--- ШРИФТЫ
+$font-path: "/fonts";
+$font-family-default: "Arial", "Helvetica", sans-serif;
+$font-family-custom: "Poppins";
+$font-family: $font-family-custom, $font-family-default;
+
+// Толщина шрифта 
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-heavy: 900;
+
+
+//--- ЗАГОЛОВКИ
+// Размер шрифта ЗАГОЛОВКОВ
+$font-size-h1-desktop: rem(64px);
+$font-size-h1-tablet: rem(44px);
+$font-size-h1-mobile: rem(32px);
+
+$font-size-h2-desktop: rem(48px);
+$font-size-h2-tablet: rem(48px);
+$font-size-h2-mobile: rem(48px);
+
+$font-size-h3-desktop: rem(40px);
+$font-size-h3-tablet: rem(36px);
+$font-size-h3-mobile: rem(30px);
+
+$font-size-h4-desktop: rem(24px);
+$font-size-h4-tablet: rem(20px);
+$font-size-h4-mobile: rem(24px);
+
+// Высота строки ЗАГОЛОВКОВ
+$line-height-h1-desktop: rem(88px);
+$line-height-h1-tablet: rem(60px);
+$line-height-h1-mobile: rem(50px);
+
+$line-height-h2-desktop: rem(88px);
+$line-height-h2-tablet: rem(88px);
+$line-height-h2-mobile: rem(88px);
+
+$line-height-h3-desktop: rem(88px);
+$line-height-h3-tablet: rem(48px);
+$line-height-h3-mobile: rem(30px);
+
+$line-height-h4-desktop: rem(32px);
+$line-height-h4-tablet: rem(32px);
+$line-height-h4-mobile: rem(32px);
+
+
+
+//--- ОСНОВНОЙ ТЕКСТ
+// Размер шрифта основного текста
+$font-size-big: rem(18px);
+$font-size-extra-big: rem(24px);
+
+// Высота строки ОСНОВНОГО ТЕКСТА
+$line-height-default: rem(32px);
+$line-height-large: rem(40px);
+$line-height-small: rem(24px);
+
+
+
+//--- РАЗМЕРЫ И ОТСТУПЫ
+// block
+$block-padding-top: rem(40px);
+$block-padding-bottom: rem(40px);
+
+$block-margin-top: rem(40px);
+$block-margin-bottom: rem(40px);
+
+$block-max-width-big: rem(500px);
+$block-max-width-huge: rem(600px);
+
+// section
+$section-padding-desktop: rem(120px);
+$section-padding-top-desktop: rem(70px);
+$section-padding-bottom-desktop: rem(70px);
+
+$section-padding-tablet: rem(80px);
+$section-padding-top-tablet: rem(40px);
+$section-padding-bottom-tablet: rem(40px);
+
+$section-padding-mobile: rem(60px);
+$section-padding-top-mobile: rem(40px);
+$section-padding-bottom-mobile: rem(40px);
+
+
+//container
+$container-max-width: rem(1230px);
+$container-inner-width: rem(1170px);
+$container-horizontal-padding: rem(30px);
+
+// header
+$header-height-desktop: rem(70px);
+$header-height-tablet: rem(70px);
+$header-height-mobile: rem(60px);
+
+
+//--- BREAKPOINTS
+
+$screen-desktop: "(max-width: 1280px)";
+$screen-tablet: "(max-width: 1023px)";
+$screen-mobile: "(max-width: 767px)";
+
+
+
+
+
+
+
+
+
+

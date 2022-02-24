@@ -1,0 +1,73 @@
+/* poppins-regular - latin */
+@font-face {
+	$font-name: "poppins-v19-latin-regular";
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-regular;
+	font-display: swap;
+  src: local(''),
+			url("#{$font-path}/#{$font-name}.woff") format("woff"),
+			url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+}
+
+
+
+/* poppins-500 - latin */
+@font-face {
+	$font-name: "poppins-v19-latin-500";
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-medium;
+	font-display: swap;
+  src: local(''),
+				url("#{$font-path}/#{$font-name}.woff") format("woff"),
+				url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+}
+
+/* poppins-600 - latin */
+@font-face {
+	$font-name: "poppins-v19-latin-600";
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-semi-bold;
+	font-display: swap;
+  src: local(''),
+				url("#{$font-path}/#{$font-name}.woff") format("woff"),
+				url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+}
+
+/* poppins-700 - latin */
+@font-face {
+	$font-name: "poppins-v19-latin-700";
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-bold;
+	font-display: swap;
+  src: local(''),
+				url("#{$font-path}/#{$font-name}.woff") format("woff"),
+				url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+}
+
+/* poppins-800 - latin */
+// @font-face {
+// 	$font-name: "poppins-v19-latin-800";
+//   font-family: $font-family-custom;
+//   font-style: normal;
+//   font-weight: $font-weight-extra-bold;
+// 	font-display: swap;
+//   src: local(''),
+// 			url("#{$font-path}/#{$font-name}.woff") format("woff"),
+// 			url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+// }
+
+/* poppins-900 - latin */
+// @font-face {
+// 	$font-name: "poppins-v19-latin-900";
+//   font-family: $font-family-custom;
+//   font-style: normal;
+//   font-weight: $font-weight-heavy;
+// 	font-display: swap;
+//   src: local(''),
+// 	url("#{$font-path}/#{$font-name}.woff") format("woff"),
+// 	url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+// }
