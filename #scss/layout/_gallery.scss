@@ -1,3 +1,42 @@
 .gallery {
-	
+	height: rem(600px);
+	margin-bottom: rem(400px);
+	padding-top: rem(70px);
+	background-color: $color1;
+	background-size: 300px;
+	color: $white;
+
+	@media #{$screen-tablet} {
+		height: rem(400px);
+		padding-top: rem(50px);
+	}
+
+	@media #{$screen-tablet} {
+	margin-bottom: rem(130px);
+
+	}
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__buttons {
+		display: grid;
+		grid-template-columns: auto auto;
+		column-gap: rem(30px);
+	}
+
+	&__text {
+		max-width: rem(500px);
+		
+		@media #{$screen-mobile} {
+			font-size: $font-size-small;
+			line-height: $line-height-small;
+		}
+	}
+
+
+
 }

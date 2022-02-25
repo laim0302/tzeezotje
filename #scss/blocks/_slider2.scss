@@ -1,23 +1,39 @@
-.slider1 {
+.slider2 {
+
+	&__swiper {
+		position: relative;
+		z-index: 100;;
+		top: 50px;
+	}
+
+	&__slide {
+		max-width: rem(970px);	
+		
+		@media #{$screen-tablet} {
+			max-width: rem(400px);
+		}
+		
+	}
 
 	&__swiper-button-prev,
 	&__swiper-button-next {
+		position: static;
 		width: rem(70px);
 		height: rem(70px);
-
-		@media #{$screen-tablet} {
-			display: none;
-		}		
+		outline: none;		
 		
-		&:after {
+		@media #{$screen-tablet} {
 			display: none;
 		}
 
+		&:after {
+			display: none;
+		}
 	}
-
 
 	&__swiper-button-prev {
 		color: $white;
+		right: rem(100px);
 
 		&:hover {
 			color: $color3;
@@ -30,7 +46,6 @@
 		&:hover {
 			color: $white;
 		}
-
 	}
 
 

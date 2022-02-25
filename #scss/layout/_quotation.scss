@@ -52,6 +52,10 @@
 		@media #{$screen-tablet} {
 			line-height: $line-height-default;
 		}
+
+		@media #{$screen-tablet} {
+			font-size: $font-size-small;
+		}
 	}
 
 		&__author {

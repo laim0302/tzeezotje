@@ -1,0 +1,139 @@
+.information {
+	padding-bottom: rem(90px);
+
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		column-gap: rem(30px);
+
+		@media #{$screen-mobile} {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	&__h2 {
+		margin-bottom: rem(35px);
+	}
+
+	&__contacts {
+		grid-column: 1/6;
+		display: flex;
+		flex-direction: column;
+
+		@media #{$screen-mobile} {
+			margin-bottom: rem(60px);
+		}
+
+		&-list {
+			display: grid;
+			row-gap: rem(42px);
+
+			@media #{$screen-tablet} {
+			row-gap: rem(30px);
+
+			}
+
+		}
+
+		&-item {
+			display: flex;
+		}
+
+		&-icon {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: rem(64px);
+			height: rem(64px);
+			margin-right: rem(15px);
+			border-radius: 50%;
+			background-color: $color3;
+			color: $white;
+		}
+
+		&-text {
+			font-size: $font-size-extra-big;
+			font-weight: $font-weight-medium;
+
+			@media #{$screen-tablet} { 
+				font-size: $font-size-big;
+				} 
+			
+		}
+	}
+
+	// ------------------------------------
+	&__questions {
+		grid-column: 6/-1;
+	} 
+
+	&__form {
+		display: grid;
+		row-gap: rem(20px);
+	}
+
+	&__form-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: rem(20px);
+
+		@media #{$screen-mobile} {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	&__input {
+		display: block;
+		width: 100%;
+		padding: rem(29px) rem(16px);
+
+		@media #{$screen-mobile} {
+			padding: rem(16px);
+		}
+	}
+
+	&__textarea {
+		display: block;
+		width: 100%;
+		padding: rem(29px) rem(16px);
+		resize: none;
+
+		@media #{$screen-mobile} {
+			padding: rem(16px);
+		}
+	}
+
+	&__button-wrapper {
+		display: flex;
+		align-items: center;
+
+		@media #{$screen-mobile} {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+	}
+
+	&__message {
+		margin-left: auto ;
+		color: $color3;
+		font-size: $font-size-big;
+	}
+
+	&__btn {
+		@media #{$screen-mobile} {
+			width: 100%;
+		}
+		
+	}
+
+	&__map {
+		margin-top: rem(50px);
+	}
+
+	&__map-container {
+		margin-top: rem(50px);
+	}
+
+}

@@ -1,0 +1,34 @@
+.footer {
+	padding: rem(80px);
+	background-color: $color2;
+	color: $white;
+
+	@media #{$screen-mobile} {
+		padding: rem(40px);
+	}
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media #{$screen-mobile} {
+			flex-direction: column-reverse;
+		}
+	}
+
+	&__logo {
+		max-width: rem(180px);
+	}
+
+	&__socials {
+		column-gap: rem(10px);
+
+		@media #{$screen-mobile} {
+			margin-bottom: rem(20px);
+		}
+	}
+}
+
+
+

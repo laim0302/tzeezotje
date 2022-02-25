@@ -1,24 +1,42 @@
-.booking {	
-	display: none;
+.booking {
+	opacity: 0;
+	display: flex;
 	position: fixed;
 	z-index: 100;	
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	// display: flex;
+	margin: auto;
 	flex-direction: column;	
 	max-width: rem(270px);
-	height: rem(500px);
-	margin: auto;
-	padding: rem(40px);
+	height: rem(540px);	
+	padding: rem(50px) rem(40px) rem(40px) rem(40px);
 	background-color: $color2;
+	transform: scale(0);
 	box-shadow: $drop-shadow;
-	color: $white;
-	
+	color: $white;		
 
 	&--active {
-		display: flex;
+		opacity: 1;
+		transform: scale(1);
+		transition: transform .3s;
+	}
+
+	&__close {
+		position: absolute;
+		top: rem(16px);
+		right: rem(16px);
+		background-color: transparent;
+		color: inherit;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	&__message {
+		color: $color3;
+		margin-bottom: rem(15px);
 	}
 
 	&__h4 {
@@ -46,6 +64,7 @@
 	}
 
 	&__btn {
+		width: 100%;
 		border: none;
 		padding: rem(14px);
 		color: $white;
@@ -54,8 +73,7 @@
 
 		&:hover {
 			color: $color2;
-		background-color: $color3;
-
+			background-color: $color3;
 		}
 	}
 

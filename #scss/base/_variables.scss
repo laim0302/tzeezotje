@@ -39,8 +39,8 @@ $font-size-h1-tablet: rem(44px);
 $font-size-h1-mobile: rem(32px);
 
 $font-size-h2-desktop: rem(48px);
-$font-size-h2-tablet: rem(48px);
-$font-size-h2-mobile: rem(48px);
+$font-size-h2-tablet: rem(40px);
+$font-size-h2-mobile: rem(30px);
 
 $font-size-h3-desktop: rem(40px);
 $font-size-h3-tablet: rem(36px);
@@ -56,8 +56,8 @@ $line-height-h1-tablet: rem(60px);
 $line-height-h1-mobile: rem(50px);
 
 $line-height-h2-desktop: rem(88px);
-$line-height-h2-tablet: rem(88px);
-$line-height-h2-mobile: rem(88px);
+$line-height-h2-tablet: rem(60);
+$line-height-h2-mobile: rem(40px);
 
 $line-height-h3-desktop: rem(88px);
 $line-height-h3-tablet: rem(48px);
@@ -71,10 +71,12 @@ $line-height-h4-mobile: rem(32px);
 
 //--- ОСНОВНОЙ ТЕКСТ
 // Размер шрифта основного текста
+$font-size-small: rem(14px);
 $font-size-big: rem(18px);
 $font-size-extra-big: rem(24px);
 
 // Высота строки ОСНОВНОГО ТЕКСТА
+$line-height-small: rem(24px);
 $line-height-default: rem(32px);
 $line-height-large: rem(40px);
 $line-height-small: rem(24px);

@@ -1,4 +1,5 @@
 <?php
+
 if (empty($_POST['date'])) {
 	echo 'Enter date of your visit';
 } elseif (empty($_POST['number'])) {
@@ -6,5 +7,5 @@ if (empty($_POST['date'])) {
 } elseif (empty($_POST['phone'])) {
 	echo 'Enter your contact phone';
 } else {
-	echo 'Succesfull';
+	echo 'SUCCESSFULL';
 }
